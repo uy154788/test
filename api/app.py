@@ -53,8 +53,8 @@ def extract_skills():
             print("File format not supported")
     else:
         print("Failed to download the file from the provided URL")
-    skills_csv_path = 'skill.csv'
-    questions_file_path = 'quest.txt'
+    skills_csv_path = '../skill.csv'
+    questions_file_path = '../quest.txt'
 
     matched_skills = extract_skills_from_resume(textinput, skills_csv_path)
 
